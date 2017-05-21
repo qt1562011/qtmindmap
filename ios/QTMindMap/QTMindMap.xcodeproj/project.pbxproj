@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C505388F1ED140F0000CD5EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C505388E1ED140F0000CD5EC /* AppDelegate.swift */; };
+		C50538911ED140F0000CD5EC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50538901ED140F0000CD5EC /* ViewController.swift */; };
+		C50538941ED140F0000CD5EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C50538921ED140F0000CD5EC /* Main.storyboard */; };
+		C50538971ED140F0000CD5EC /* QTMindMap.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C50538951ED140F0000CD5EC /* QTMindMap.xcdatamodeld */; };
+		C50538991ED140F0000CD5EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C50538981ED140F0000CD5EC /* Assets.xcassets */; };
+		C505389C1ED140F0000CD5EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C505389A1ED140F0000CD5EC /* LaunchScreen.storyboard */; };
+		C50538A71ED140F0000CD5EC /* QTMindMapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50538A61ED140F0000CD5EC /* QTMindMapTests.swift */; };
+		C50538B21ED140F0000CD5EC /* QTMindMapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50538B11ED140F0000CD5EC /* QTMindMapUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C50538A31ED140F0000CD5EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C50538831ED140F0000CD5EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C505388A1ED140F0000CD5EC;
+			remoteInfo = QTMindMap;
+		};
+		C50538AE1ED140F0000CD5EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C50538831ED140F0000CD5EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C505388A1ED140F0000CD5EC;
+			remoteInfo = QTMindMap;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C505388B1ED140F0000CD5EC /* QTMindMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QTMindMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C505388E1ED140F0000CD5EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C50538901ED140F0000CD5EC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C50538931ED140F0000CD5EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C50538961ED140F0000CD5EC /* QTMindMap.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = QTMindMap.xcdatamodel; sourceTree = "<group>"; };
+		C50538981ED140F0000CD5EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C505389B1ED140F0000CD5EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C505389D1ED140F0000CD5EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C50538A21ED140F0000CD5EC /* QTMindMapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QTMindMapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C50538A61ED140F0000CD5EC /* QTMindMapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QTMindMapTests.swift; sourceTree = "<group>"; };
+		C50538A81ED140F0000CD5EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C50538AD1ED140F0000CD5EC /* QTMindMapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QTMindMapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C50538B11ED140F0000CD5EC /* QTMindMapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QTMindMapUITests.swift; sourceTree = "<group>"; };
+		C50538B31ED140F0000CD5EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C50538881ED140F0000CD5EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C505389F1ED140F0000CD5EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C50538AA1ED140F0000CD5EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C50538821ED140F0000CD5EC = {
+			isa = PBXGroup;
+			children = (
+				C505388D1ED140F0000CD5EC /* QTMindMap */,
+				C50538A51ED140F0000CD5EC /* QTMindMapTests */,
+				C50538B01ED140F0000CD5EC /* QTMindMapUITests */,
+				C505388C1ED140F0000CD5EC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C505388C1ED140F0000CD5EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C505388B1ED140F0000CD5EC /* QTMindMap.app */,
+				C50538A21ED140F0000CD5EC /* QTMindMapTests.xctest */,
+				C50538AD1ED140F0000CD5EC /* QTMindMapUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C505388D1ED140F0000CD5EC /* QTMindMap */ = {
+			isa = PBXGroup;
+			children = (
+				C505388E1ED140F0000CD5EC /* AppDelegate.swift */,
+				C50538901ED140F0000CD5EC /* ViewController.swift */,
+				C50538921ED140F0000CD5EC /* Main.storyboard */,
+				C50538981ED140F0000CD5EC /* Assets.xcassets */,
+				C505389A1ED140F0000CD5EC /* LaunchScreen.storyboard */,
+				C505389D1ED140F0000CD5EC /* Info.plist */,
+				C50538951ED140F0000CD5EC /* QTMindMap.xcdatamodeld */,
+			);
+			path = QTMindMap;
+			sourceTree = "<group>";
+		};
+		C50538A51ED140F0000CD5EC /* QTMindMapTests */ = {
+			isa = PBXGroup;
+			children = (
+				C50538A61ED140F0000CD5EC /* QTMindMapTests.swift */,
+				C50538A81ED140F0000CD5EC /* Info.plist */,
+			);
+			path = QTMindMapTests;
+			sourceTree = "<group>";
+		};
+		C50538B01ED140F0000CD5EC /* QTMindMapUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C50538B11ED140F0000CD5EC /* QTMindMapUITests.swift */,
+				C50538B31ED140F0000CD5EC /* Info.plist */,
+			);
+			path = QTMindMapUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C505388A1ED140F0000CD5EC /* QTMindMap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C50538B61ED140F0000CD5EC /* Build configuration list for PBXNativeTarget "QTMindMap" */;
+			buildPhases = (
+				C50538871ED140F0000CD5EC /* Sources */,
+				C50538881ED140F0000CD5EC /* Frameworks */,
+				C50538891ED140F0000CD5EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QTMindMap;
+			productName = QTMindMap;
+			productReference = C505388B1ED140F0000CD5EC /* QTMindMap.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C50538A11ED140F0000CD5EC /* QTMindMapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C50538B91ED140F0000CD5EC /* Build configuration list for PBXNativeTarget "QTMindMapTests" */;
+			buildPhases = (
+				C505389E1ED140F0000CD5EC /* Sources */,
+				C505389F1ED140F0000CD5EC /* Frameworks */,
+				C50538A01ED140F0000CD5EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C50538A41ED140F0000CD5EC /* PBXTargetDependency */,
+			);
+			name = QTMindMapTests;
+			productName = QTMindMapTests;
+			productReference = C50538A21ED140F0000CD5EC /* QTMindMapTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C50538AC1ED140F0000CD5EC /* QTMindMapUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C50538BC1ED140F0000CD5EC /* Build configuration list for PBXNativeTarget "QTMindMapUITests" */;
+			buildPhases = (
+				C50538A91ED140F0000CD5EC /* Sources */,
+				C50538AA1ED140F0000CD5EC /* Frameworks */,
+				C50538AB1ED140F0000CD5EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C50538AF1ED140F0000CD5EC /* PBXTargetDependency */,
+			);
+			name = QTMindMapUITests;
+			productName = QTMindMapUITests;
+			productReference = C50538AD1ED140F0000CD5EC /* QTMindMapUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C50538831ED140F0000CD5EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = QT;
+				TargetAttributes = {
+					C505388A1ED140F0000CD5EC = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					C50538A11ED140F0000CD5EC = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C505388A1ED140F0000CD5EC;
+					};
+					C50538AC1ED140F0000CD5EC = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C505388A1ED140F0000CD5EC;
+					};
+				};
+			};
+			buildConfigurationList = C50538861ED140F0000CD5EC /* Build configuration list for PBXProject "QTMindMap" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C50538821ED140F0000CD5EC;
+			productRefGroup = C505388C1ED140F0000CD5EC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C505388A1ED140F0000CD5EC /* QTMindMap */,
+				C50538A11ED140F0000CD5EC /* QTMindMapTests */,
+				C50538AC1ED140F0000CD5EC /* QTMindMapUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C50538891ED140F0000CD5EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C505389C1ED140F0000CD5EC /* LaunchScreen.storyboard in Resources */,
+				C50538991ED140F0000CD5EC /* Assets.xcassets in Resources */,
+				C50538941ED140F0000CD5EC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C50538A01ED140F0000CD5EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C50538AB1ED140F0000CD5EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C50538871ED140F0000CD5EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C50538911ED140F0000CD5EC /* ViewController.swift in Sources */,
+				C505388F1ED140F0000CD5EC /* AppDelegate.swift in Sources */,
+				C50538971ED140F0000CD5EC /* QTMindMap.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C505389E1ED140F0000CD5EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C50538A71ED140F0000CD5EC /* QTMindMapTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C50538A91ED140F0000CD5EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C50538B21ED140F0000CD5EC /* QTMindMapUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C50538A41ED140F0000CD5EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C505388A1ED140F0000CD5EC /* QTMindMap */;
+			targetProxy = C50538A31ED140F0000CD5EC /* PBXContainerItemProxy */;
+		};
+		C50538AF1ED140F0000CD5EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C505388A1ED140F0000CD5EC /* QTMindMap */;
+			targetProxy = C50538AE1ED140F0000CD5EC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C50538921ED140F0000CD5EC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C50538931ED140F0000CD5EC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C505389A1ED140F0000CD5EC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C505389B1ED140F0000CD5EC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C50538B41ED140F0000CD5EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C50538B51ED140F0000CD5EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C50538B71ED140F0000CD5EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = QTMindMap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lamphan.QTMindMap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C50538B81ED140F0000CD5EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = QTMindMap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lamphan.QTMindMap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		C50538BA1ED140F0000CD5EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = QTMindMapTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lamphan.QTMindMapTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QTMindMap.app/QTMindMap";
+			};
+			name = Debug;
+		};
+		C50538BB1ED140F0000CD5EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = QTMindMapTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lamphan.QTMindMapTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QTMindMap.app/QTMindMap";
+			};
+			name = Release;
+		};
+		C50538BD1ED140F0000CD5EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = QTMindMapUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lamphan.QTMindMapUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = QTMindMap;
+			};
+			name = Debug;
+		};
+		C50538BE1ED140F0000CD5EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = QTMindMapUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lamphan.QTMindMapUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = QTMindMap;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C50538861ED140F0000CD5EC /* Build configuration list for PBXProject "QTMindMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C50538B41ED140F0000CD5EC /* Debug */,
+				C50538B51ED140F0000CD5EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C50538B61ED140F0000CD5EC /* Build configuration list for PBXNativeTarget "QTMindMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C50538B71ED140F0000CD5EC /* Debug */,
+				C50538B81ED140F0000CD5EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C50538B91ED140F0000CD5EC /* Build configuration list for PBXNativeTarget "QTMindMapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C50538BA1ED140F0000CD5EC /* Debug */,
+				C50538BB1ED140F0000CD5EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C50538BC1ED140F0000CD5EC /* Build configuration list for PBXNativeTarget "QTMindMapUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C50538BD1ED140F0000CD5EC /* Debug */,
+				C50538BE1ED140F0000CD5EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C50538951ED140F0000CD5EC /* QTMindMap.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C50538961ED140F0000CD5EC /* QTMindMap.xcdatamodel */,
+			);
+			currentVersion = C50538961ED140F0000CD5EC /* QTMindMap.xcdatamodel */;
+			path = QTMindMap.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C50538831ED140F0000CD5EC /* Project object */;
+}
